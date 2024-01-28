@@ -1,0 +1,83 @@
+.header-home {
+  height: 100%;
+  background-image: url("/imegs/home/desktop/image-hero.jpg");
+  max-width: 1440px;
+  width: 100%;
+  height: 720px;
+  background-size: cover;
+}
+.header__mark2__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 128px;
+  width: 398px;
+  height: 346px;
+  flex-shrink: 0;
+  gap: 25px;
+}
+.new-product {
+  color: $color-withe;
+  opacity: 0.5;
+}
+.header__mark2__title {
+  color: $color-withe;
+}
+.header__mark2__subtitle {
+  color: $color-withe;
+
+  width: 349px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.header__mark2__link {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: $color-orang;
+  padding: 15px 30px 15px;
+  &:hover {
+    background-color: $color-orang-withe;
+  }
+}
+.main {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.home-nav__headphones {
+  width: 350px;
+  height: 204px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: $color-gren;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-nav__headphones-img {
+  text-align: center;
+  width: 122.947px;
+  height: 160px;
+  flex-shrink: 0;
+  margin-top: -40px;
+}
+.home-nav__link:hover {
+  color: $color-orang;
+}
+.home-nav__link-img {
+  display: inline;
+  margin-left: 10px;
+}
+.home-nav {
+  display: flex;
+  gap: 30px;
+}

@@ -1,0 +1,40 @@
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: relative;
+  z-index: 2;
+}
+.header {
+  background: $color-black;
+  height: 100%;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.header__link {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  &:hover{
+    color: $color-orang;
+  }
+}
+.header__line {
+  width: 1200px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  background-color: $color-withe;
+  margin-left: 20px;
+}
