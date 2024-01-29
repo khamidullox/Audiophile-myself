@@ -8,7 +8,7 @@
 }
 .header {
   background: $color-black;
-  height: 100%;
+  // height: 100%;
 }
 
 .header__list {
@@ -26,7 +26,7 @@
   text-transform: uppercase;
   position: relative;
   z-index: 1;
-  &:hover{
+  &:hover {
     color: $color-orang;
   }
 }
@@ -37,4 +37,12 @@
   opacity: 0.2;
   background-color: $color-withe;
   margin-left: 20px;
+}
+.header__title{
+height: 240px;
+}
+.header__title-text {
+  color: $color-withe;
+  text-align: center;
+  padding-top: 100px;
 }
