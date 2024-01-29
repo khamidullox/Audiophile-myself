@@ -346,6 +346,10 @@ body {
   color: #D87D4A;
 }
 
+.home-nav__link {
+  color: #101010;
+}
+
 .home-nav__link-img {
   display: inline;
   margin-left: 10px;
