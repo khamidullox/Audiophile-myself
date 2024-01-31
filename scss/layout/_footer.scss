@@ -19,10 +19,7 @@
 
 .footer__link {
   color: #fff;
-  font-size: 13px;
   font-weight: 700;
-  line-height: 25px;
-  letter-spacing: 2px;
   text-transform: uppercase;
   &:hover{
     color: $color-orang;
@@ -36,11 +33,10 @@
 }
 .footer__text {
   color: $color-withe;
-  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  width: 540px;
+  line-height: 2.5rem;
+  width: 54rem;
   opacity: 0.5;
 }
 

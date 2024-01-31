@@ -28,40 +28,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:$font-family;
+  font-family: $font-family;
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
 }
 h1 {
-  font-size: 56px;
-  line-height: 58px;
-  letter-spacing: 2px;
+  @include paragraf($h1-fs,$h1-lh, $h1-ls,);
 }
 h2 {
-  font-size: 40px;
-  line-height: 44px;
-  letter-spacing: 1.429px;
+  @include paragraf($h2-fs,$h2-lh, $h2-ls,);
 }
 h3 {
-  font-size: 32px;
-  line-height: 36px;
-  letter-spacing: 1.143px;
+  @include paragraf($h3-fs,$h3-lh, $h3-ls,);
 }
 h4 {
-  font-size: 28px;
-  line-height: normal;
-  letter-spacing: 2px;
+  @include paragraf($h4-fs,$h4-lh, $h4-ls,);
 }
 h5 {
-  font-size: 24px;
-  line-height: normal;
-  letter-spacing: 1.714px;
+  @include paragraf($h5-fs,$h5-lh, $h5-ls,);
 }
 h6 {
-  font-size: 18px;
-  line-height: normal;
-  letter-spacing: 1.286px;
+  @include paragraf($h6-fs,$h6-lh, $h6-ls,);
 }
 .new-product {
   color: $color-orang;
@@ -72,3 +60,4 @@ h6 {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+

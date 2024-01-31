@@ -1,0 +1,12 @@
+@mixin paragraf($fs, $lh, $ls) {
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+@mixin btn($padinng, $radius, $transform) {
+  padding: $padinng;
+  border-radius: $radius;
+  text-transform: $transform;
+}
+

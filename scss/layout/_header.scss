@@ -19,13 +19,9 @@
 
 .header__link {
   color: #fff;
-  font-size: 13px;
   font-weight: 700;
-  line-height: 25px;
-  letter-spacing: 2px;
   text-transform: uppercase;
-  position: relative;
-  z-index: 1;
+  
   &:hover {
     color: $color-orang;
   }

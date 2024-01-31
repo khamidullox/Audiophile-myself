@@ -36,15 +36,12 @@
 }
 .header__mark2__link {
   color: #fff;
-  font-family: Manrope;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
-  text-transform: uppercase;
   background-color: $color-orang;
-  padding: 15px 30px 15px;
   &:hover {
     background-color: $color-orang-withe;
   }
@@ -76,7 +73,7 @@
 .home-nav__link:hover {
   color: $color-orang;
 }
-.home-nav__link{
+.home-nav__link {
   color: $color-black;
 }
 .home-nav__link-img {
@@ -124,24 +121,25 @@
 }
 .home-zx9__link {
   color: $color-withe;
-  font-family: Manrope;
-  font-size: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
-  text-transform: uppercase;
   background-color: $color-blacker;
+  // text-align: center;
+  width: 18rem;
+  height: 4.8rem;
+  flex-shrink: 0;
   &:hover {
-    background-color: #4C4C4C;
+    background-color: #4c4c4c;
   }
 }
 .home-zx7 {
   background-image: url("/imegs/home/desktop/image-speaker-zx7.jpg");
   background-size: cover;
 
-  width: 1110px;
-  height: 320px;
+  width: 111rem;
+  height: 32rem;
   border-radius: 10px;
   padding-left: 120px;
   padding-top: 100px;
@@ -153,13 +151,7 @@
 .home-zx7__link {
   border: 1px solid $color-black;
   color: #000;
-  font-family: Manrope;
-  font-size: 13px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   border-radius: 0;
   &:hover {
     background-color: $color-blacker;
@@ -204,12 +196,12 @@
 
 .home-avatar__subtitle {
   color: #000;
-font-family: Manrope;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px; /* 166.667% */
-opacity: 0.5;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
 }
 .home-avatar__img {
   width: 500px;
