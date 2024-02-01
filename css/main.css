@@ -118,7 +118,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1152px;
+  max-width: 115.2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2.4rem;
@@ -269,6 +269,8 @@ body {
   max-width: 144rem;
   width: 100%;
   height: 72rem;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header__mark2__content {
