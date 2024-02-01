@@ -1,10 +1,9 @@
 .header-home {
   height: 100%;
   background-image: url("/imegs/home/desktop/image-hero.jpg");
-  max-width: 1440px;
+  max-width: 144rem;
   width: 100%;
-  height: 720px;
-  background-size: cover;
+  height: 72rem;
 }
 .header__mark2__content {
   display: flex;
@@ -12,10 +11,11 @@
   align-items: start;
   justify-content: center;
   margin-top: 128px;
-  width: 398px;
-  height: 346px;
+  width: 39.8rem;
+  height: 34.6rem;
   flex-shrink: 0;
-  gap: 25px;
+  gap: 2.5rem;
+  padding-left: 6rem;
 }
 .new-product {
   color: $color-withe;
@@ -27,16 +27,16 @@
 .header__mark2__subtitle {
   color: $color-withe;
 
-  width: 349px;
-  font-size: 15px;
+  width: 35rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  margin-bottom: 25px;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .header__mark2__link {
   color: #fff;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -47,17 +47,18 @@
   }
 }
 .main {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 .home-nav {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
+  width: 111rem;
 }
 .home-nav__headphones {
-  width: 350px;
-  height: 204px;
+  width: 35rem;
+  height: 20.4rem;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background: $color-gren;
   display: flex;
   align-items: center;
@@ -65,10 +66,10 @@
 }
 .home-nav__headphones-img {
   text-align: center;
-  width: 122.947px;
-  height: 160px;
+  width: 12.2rem;
+  height: 16rem;
   flex-shrink: 0;
-  margin-top: -40px;
+  margin-top: -4rem;
 }
 .home-nav__link:hover {
   color: $color-orang;
@@ -78,37 +79,37 @@
 }
 .home-nav__link-img {
   display: inline;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .home-nav {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
 }
 .home-zx9 {
-  width: 1110px;
-  height: 560px;
+  width: 111rem;
+  height: 56rem;
   flex-shrink: 0;
   background-color: $color-orang;
   display: flex;
-  gap: 138px;
+  gap: 13.8rem;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  border-radius: 10px;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
 }
 .home-zx9__img {
-  width: 410.234px;
-  height: 485px;
+  width: 41rem;
+  height: 48.5rem;
   flex-shrink: 0;
-  margin-bottom: -75px;
+  margin-bottom: -7.5rem;
 }
 .home-zx0__content {
-  width: 349px;
-  height: 303px;
+  width: 34.9rem;
+  height: 30.3rem;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 2.5rem;
 }
 .home-zx9__title {
   width: 260px;
@@ -117,7 +118,7 @@
 .home-zx9__subtitle {
   opacity: 0.75;
   color: $color-withe;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 .home-zx9__link {
   color: $color-withe;
@@ -137,16 +138,15 @@
 .home-zx7 {
   background-image: url("/imegs/home/desktop/image-speaker-zx7.jpg");
   background-size: cover;
-
   width: 111rem;
   height: 32rem;
-  border-radius: 10px;
-  padding-left: 120px;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  border-radius: 1rem;
+  padding-left: 12rem;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
 }
 .home-zx7__title {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 .home-zx7__link {
   border: 1px solid $color-black;
@@ -160,52 +160,54 @@
 }
 .home-yx1 {
   display: flex;
-  gap: 32px;
-  margin-bottom: 50px;
+  gap: 3.2rem;
+  margin-bottom: 5rem;
+  width: 111rem;
+
 }
 .home-yx1__img {
-  width: 540px;
-  height: 320px;
+  width: 54rem;
+  height: 32rem;
   border-radius: 8px;
 }
 .home-yx1__content {
-  width: 540px;
-  height: 320px;
+  width: 54rem;
+  height: 32rem;
   flex-shrink: 0;
   border-radius: 8px;
   background: $color-gren;
-  padding-left: 95px;
-  padding-top: 100px;
+  padding-left: 9rem;
+  padding-top: 10rem;
 }
 .home-yx1__title {
-  padding-bottom: 32px;
+  padding-bottom: 3.2rem;
 }
 .home-avatar {
   display: flex;
-  gap: 50px;
+  gap: 5rem;
   align-items: center;
   justify-content: space-evenly;
 }
 .home-avatar__content {
   display: flex;
-  width: 445px;
-  height: 295px;
+  width: 44.5rem;
+  height: 29.5rem;
   flex-direction: column;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .home-avatar__subtitle {
   color: #000;
   font-family: Manrope;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 1.66; /* 166.667% */
   opacity: 0.5;
 }
 .home-avatar__img {
-  width: 500px;
-  height: 588px;
+  width: 50rem;
+  height: 58.8rem;
   border-radius: 15px;
 }
 .home-avatar__span {

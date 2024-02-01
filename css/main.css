@@ -72,11 +72,11 @@ h6 {
 
 .new-product {
   color: #D87D4A;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
   text-transform: uppercase;
 }
 
@@ -89,6 +89,7 @@ h6 {
 html {
   height: 100%;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 ul,
@@ -108,7 +109,6 @@ img {
 
 body {
   height: 100%;
-  scroll-behavior: smooth;
   font-family: "Manrope", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -118,11 +118,11 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1152px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12.5rem;
-  padding-right: 12.5rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
 }
 
 .btn-orang, .btn {
@@ -131,37 +131,49 @@ body {
   text-transform: uppercase;
 }
 
+.btn-orang {
+  background-color: #D87D4A;
+  color: #FFFFFF;
+  letter-spacing: 0.1rem;
+}
+.btn-orang:hover {
+  background-color: #fbaf85;
+}
+
 .header-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 8rem;
   position: relative;
   z-index: 2;
 }
 
 .header {
   background: #101010;
+  max-width: 144rem;
+  width: 100%;
 }
 
 .header__list {
   display: flex;
   justify-content: space-between;
-  gap: 34px;
+  gap: 3.4rem;
 }
 
 .header__link {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 .header__link:hover {
   color: #D87D4A;
 }
 
 .header__line {
-  width: 1200px;
-  height: 1px;
+  width: 120rem;
+  height: 0.1rem;
   flex-shrink: 0;
   opacity: 0.2;
   background-color: #FFFFFF;
@@ -169,37 +181,40 @@ body {
 }
 
 .header__title {
-  height: 240px;
+  height: 24rem;
 }
 
 .header__title-text {
   color: #FFFFFF;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10rem;
 }
 
 .footer {
-  height: 365px;
+  height: 36.5rem;
   flex-shrink: 0;
   background-color: #101010;
+  max-width: 144rem;
+  width: 100%;
 }
 
 .footer-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 75px;
+  padding-top: 7.5rem;
 }
 
 .footer__list {
   display: flex;
-  gap: 34px;
+  gap: 3.4rem;
 }
 
 .footer__link {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 .footer__link:hover {
   color: #D87D4A;
@@ -207,7 +222,7 @@ body {
 
 .footer__fulfill {
   display: flex;
-  padding-top: 36px;
+  padding-top: 3.6rem;
   justify-content: space-between;
   align-items: end;
 }
@@ -222,13 +237,13 @@ body {
 }
 
 .footer__data {
-  padding-top: 50px;
+  padding-top: 5rem;
   color: #fff;
   font-family: Manrope;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 25px;
+  line-height: 2.5rem;
   opacity: 0.5;
 }
 
@@ -238,23 +253,22 @@ body {
 
 .icon-soci {
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .footer__line {
-  width: 101px;
-  height: 4px;
+  width: 10.1rem;
+  height: 0.4rem;
   background-color: #D87D4A;
-  margin-bottom: -20px;
+  margin-bottom: -2rem;
 }
 
 .header-home {
   height: 100%;
   background-image: url("/imegs/home/desktop/image-hero.jpg");
-  max-width: 1440px;
+  max-width: 144rem;
   width: 100%;
-  height: 720px;
-  background-size: cover;
+  height: 72rem;
 }
 
 .header__mark2__content {
@@ -263,10 +277,11 @@ body {
   align-items: start;
   justify-content: center;
   margin-top: 128px;
-  width: 398px;
-  height: 346px;
+  width: 39.8rem;
+  height: 34.6rem;
   flex-shrink: 0;
-  gap: 25px;
+  gap: 2.5rem;
+  padding-left: 6rem;
 }
 
 .new-product {
@@ -280,17 +295,17 @@ body {
 
 .header__mark2__subtitle {
   color: #FFFFFF;
-  width: 349px;
-  font-size: 15px;
+  width: 35rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  margin-bottom: 25px;
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .header__mark2__link {
   color: #fff;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -302,19 +317,20 @@ body {
 }
 
 .main {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .home-nav {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
+  width: 111rem;
 }
 
 .home-nav__headphones {
-  width: 350px;
-  height: 204px;
+  width: 35rem;
+  height: 20.4rem;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background: #F1F1F1;
   display: flex;
   align-items: center;
@@ -323,10 +339,10 @@ body {
 
 .home-nav__headphones-img {
   text-align: center;
-  width: 122.947px;
-  height: 160px;
+  width: 12.2rem;
+  height: 16rem;
   flex-shrink: 0;
-  margin-top: -40px;
+  margin-top: -4rem;
 }
 
 .home-nav__link:hover {
@@ -339,41 +355,41 @@ body {
 
 .home-nav__link-img {
   display: inline;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 .home-nav {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .home-zx9 {
-  width: 1110px;
-  height: 560px;
+  width: 111rem;
+  height: 56rem;
   flex-shrink: 0;
   background-color: #D87D4A;
   display: flex;
-  gap: 138px;
+  gap: 13.8rem;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  border-radius: 10px;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
 }
 
 .home-zx9__img {
-  width: 410.234px;
-  height: 485px;
+  width: 41rem;
+  height: 48.5rem;
   flex-shrink: 0;
-  margin-bottom: -75px;
+  margin-bottom: -7.5rem;
 }
 
 .home-zx0__content {
-  width: 349px;
-  height: 303px;
+  width: 34.9rem;
+  height: 30.3rem;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 .home-zx9__title {
@@ -384,7 +400,7 @@ body {
 .home-zx9__subtitle {
   opacity: 0.75;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .home-zx9__link {
@@ -407,14 +423,14 @@ body {
   background-size: cover;
   width: 111rem;
   height: 32rem;
-  border-radius: 10px;
-  padding-left: 120px;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  border-radius: 1rem;
+  padding-left: 12rem;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .home-zx7__title {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 
 .home-zx7__link {
@@ -430,61 +446,95 @@ body {
 
 .home-yx1 {
   display: flex;
-  gap: 32px;
-  margin-bottom: 50px;
+  gap: 3.2rem;
+  margin-bottom: 5rem;
+  width: 111rem;
 }
 
 .home-yx1__img {
-  width: 540px;
-  height: 320px;
+  width: 54rem;
+  height: 32rem;
   border-radius: 8px;
 }
 
 .home-yx1__content {
-  width: 540px;
-  height: 320px;
+  width: 54rem;
+  height: 32rem;
   flex-shrink: 0;
   border-radius: 8px;
   background: #F1F1F1;
-  padding-left: 95px;
-  padding-top: 100px;
+  padding-left: 9rem;
+  padding-top: 10rem;
 }
 
 .home-yx1__title {
-  padding-bottom: 32px;
+  padding-bottom: 3.2rem;
 }
 
 .home-avatar {
   display: flex;
-  gap: 50px;
+  gap: 5rem;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .home-avatar__content {
   display: flex;
-  width: 445px;
-  height: 295px;
+  width: 44.5rem;
+  height: 29.5rem;
   flex-direction: column;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .home-avatar__subtitle {
   color: #000;
   font-family: Manrope;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 1.66; /* 166.667% */
   opacity: 0.5;
 }
 
 .home-avatar__img {
-  width: 500px;
-  height: 588px;
+  width: 50rem;
+  height: 58.8rem;
   border-radius: 15px;
 }
 
 .home-avatar__span {
   color: #D87D4A;
+}
+
+.main-headphones-xx99 {
+  display: flex;
+  gap: 12.5rem;
+  align-items: center;
+  margin-bottom: 16rem;
+  width: 104rem;
+}
+
+.main-headphones-xx99__img {
+  width: 54rem;
+  height: 56rem;
+  border-radius: 0.8rem;
+}
+
+.main-headphones-xx99__content {
+  width: 44rem;
+  height: 30.8rem;
+  flex-shrink: 0;
+}
+.main-headphones-xx99__content .new-product {
+  color: #D87D4A;
+  opacity: 1;
+  padding-bottom: 1.6rem;
+}
+
+.main-headphones-xx99__title {
+  padding-bottom: 3.2rem;
+}
+
+.main-headphones-xx99__text {
+  padding-bottom: 4rem;
 }/*# sourceMappingURL=main.css.map */

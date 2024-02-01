@@ -2,43 +2,45 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 8rem;
   position: relative;
   z-index: 2;
 }
 .header {
   background: $color-black;
   // height: 100%;
+  max-width: 144rem;
+  width: 100%;
 }
 
 .header__list {
   display: flex;
   justify-content: space-between;
-  gap: 34px;
+  gap: 3.4rem;
 }
 
 .header__link {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  
+transition: 0.3s;
   &:hover {
     color: $color-orang;
   }
 }
 .header__line {
-  width: 1200px;
-  height: 1px;
+  width: 120rem;
+  height: 0.1rem;
   flex-shrink: 0;
   opacity: 0.2;
   background-color: $color-withe;
   margin-left: 20px;
 }
-.header__title{
-height: 240px;
+.header__title {
+  height: 24rem;
 }
 .header__title-text {
   color: $color-withe;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10rem;
 }

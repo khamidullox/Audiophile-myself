@@ -1,4 +1,13 @@
 .btn-orang , .btn{
 @include btn ($btn-pa,$btn-rad,$btn-tran)
+
   }
   
+.btn-orang {
+background-color: $color-orang;
+color: $color-withe;
+letter-spacing: 0.1rem;
+&:hover{
+  background-color: $color-orang-withe;
+}
+  }
