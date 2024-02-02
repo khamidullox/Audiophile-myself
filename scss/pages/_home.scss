@@ -53,8 +53,9 @@
   margin-bottom: 10rem;
 }
 .home-nav {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   width: 111rem;
+
 }
 .home-nav__headphones {
   width: 35rem;
@@ -186,9 +187,10 @@
 }
 .home-avatar {
   display: flex;
-  gap: 5rem;
+  gap: 10rem;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
 }
 .home-avatar__content {
   display: flex;

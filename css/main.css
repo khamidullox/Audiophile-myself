@@ -324,7 +324,7 @@ body {
 }
 
 .home-nav {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   width: 111rem;
 }
 
@@ -475,9 +475,9 @@ body {
 
 .home-avatar {
   display: flex;
-  gap: 5rem;
+  gap: 10rem;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .home-avatar__content {
@@ -525,7 +525,6 @@ body {
 .main-headphones-xx99__content {
   width: 44rem;
   height: 30.8rem;
-  flex-shrink: 0;
 }
 .main-headphones-xx99__content .new-product {
   color: #D87D4A;
@@ -539,4 +538,111 @@ body {
 
 .main-headphones-xx99__text {
   padding-bottom: 4rem;
+  width: 44.5rem;
+}
+
+.main-headphones__back {
+  margin-bottom: 4rem;
+  display: block;
+}
+
+.main-headphones {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+}
+
+.main-headphones__img {
+  width: 54rem;
+  height: 40em;
+  border-radius: 0.8rem;
+}
+
+.main-headphones-content {
+  width: 45rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.new-product {
+  color: #D87D4A;
+  opacity: 1;
+}
+
+.main-headphones__text {
+  opacity: 0.5;
+}
+
+.main-headphones__price {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main-headphones__cart {
+  display: flex;
+  gap: 5rem;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+
+.main-headphones__shop {
+  width: 12rem;
+  height: 5rem;
+  text-align: center;
+  background-color: #F1F1F1;
+}
+
+.btn-orang-radius {
+  border-radius: 0;
+}
+
+.main-headphones__link {
+  color: #000000;
+}
+
+.main-headphones_minus {
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+.main-features {
+  display: flex;
+  gap: 12rem;
+}
+
+.main-features__content {
+  width: 63.5rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.main-features-__text {
+  opacity: 0.75;
+}
+
+.main-features__box {
+  width: 35rem;
+  height: 22.5rem;
+}
+
+.main-features__box-title {
+  padding-bottom: 3rem;
+}
+
+.main-features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-features__span {
+  color: #D87D4A;
+  opacity: 1;
+  padding-right: 2rem;
 }/*# sourceMappingURL=main.css.map */

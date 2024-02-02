@@ -1,35 +1,127 @@
 .main-headphones-xx99 {
   display: flex;
   gap: 12.5rem;
-align-items: center;
-margin-bottom: 16rem;
-width: 104rem;
-
+  align-items: center;
+  margin-bottom: 16rem;
+  width: 104rem;
 }
 .main-headphones-xx99__img {
   width: 54rem;
   height: 56rem;
   border-radius: 0.8rem;
 
-//   padding-left: -1rem;
+  //   padding-left: -1rem;
 }
 .main-headphones-xx99__content {
-    width: 44rem;
-    height: 30.8rem;
-    flex-shrink: 0;
-    .new-product {
-        color: $color-orang;
-        opacity: 1;
-        padding-bottom: 1.6rem;
-    }
+  width: 44rem;
+  height: 30.8rem;
+  .new-product {
+    color: $color-orang;
+    opacity: 1;
+    padding-bottom: 1.6rem;
+  }
 }
 
 .main-headphones-xx99__title {
-    padding-bottom: 3.2rem;
+  padding-bottom: 3.2rem;
 }
 .main-headphones-xx99__text {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
+  width: 44.5rem;
 }
-.btn-orang {
+.main-headphones__back {
+  margin-bottom: 4rem;
+  display: block;
+}
+.main-headphones {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+}
+.main-headphones__img {
+  width: 54rem;
+  height: 40em;
+  border-radius: 0.8rem;
+}
+.main-headphones-content {
+  width: 45rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.new-product {
+  color: $color-orang;
+  opacity: 1;
+}
 
+.main-headphones__text {
+  opacity: 0.5;
+}
+.main-headphones__price {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.main-headphones__cart {
+  display: flex;
+  gap: 5rem;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+.main-headphones__shop {
+  width: 12rem;
+  height: 5rem;
+  text-align: center;
+  background-color: $color-gren;
+}
+.btn-orang-radius {
+border-radius: 0;
+}
+.main-headphones__link {
+  color: $color-blacker;
+}
+.main-headphones_minus{
+  display: inline-block;
+  padding: 1.5rem;
+}
+.main-features {
+  display: flex;
+  gap: 12rem;
+  
+}
+.main-features__content {
+  width: 63.5rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.main-features-__text {
+  opacity: 0.75;
+}
+.main-features__box {
+  width: 35rem;
+  height: 22.5rem;
+
+}
+.main-features__box-title {
+  padding-bottom: 3rem;
+  
+}
+.main-features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.main-features__item {
+
+}
+.main-features__span {
+  color: $color-orang;
+  opacity: 1;
+  padding-right: 2rem;
 }
