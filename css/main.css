@@ -80,6 +80,10 @@ h6 {
   text-transform: uppercase;
 }
 
+#active {
+  color: #D87D4A;
+}
+
 * {
   padding: 0;
   margin: 0;
